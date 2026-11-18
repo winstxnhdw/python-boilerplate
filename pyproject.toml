@@ -38,6 +38,9 @@ ignore = [
   "CPY001", # missing copyright notice
   "COM812", # missing-trailing-comma (conflicts with ruff format)
   "INP001", # implicit-namespace-package
+  "TC001",  # typing-only-first-party-import
+  "TC002",  # typing-only-third-party-import
+  "TC003",  # typing-only-standard-library-import
 ]
 
 
