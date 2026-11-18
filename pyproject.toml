@@ -53,3 +53,8 @@ suppress-dummy-args = true
 "typing_extensions.TYPE_CHECKING".msg = "Use ordinary runtime imports."
 "typing_extensions.cast".msg = "Narrow or validate the value's type instead."
 "typing_extensions.no_type_check".msg = "Use targeted type-checking suppressions instead."
+
+[tool.pyright]
+typeCheckingMode = "strict"
+reportMissingModuleSource = false
+reportPrivateUsage = false
